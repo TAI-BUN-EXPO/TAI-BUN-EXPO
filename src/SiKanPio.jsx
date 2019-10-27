@@ -177,7 +177,7 @@ const sikan=[
 ]
 
 const lueiong=sikan.map((kang,i) =>
-  <div key={i} className="ui text container">
+  <div key={i}>
     <span className='jit'>{kang.jit}</span><br/>
 	{kang.hangbok.map(tiunn =>
       <div key={tiunn.sikan}>
@@ -189,7 +189,7 @@ const lueiong=sikan.map((kang,i) =>
   </div>
 )
 const SiKanPio = () => (
-  <div className='sikanpio'>
+  <div className='sikanpio ui text container'>
     <div className="ui padded basic segment">
     <div className="ui horizontal inverted divider">時間表</div>
     </div>
