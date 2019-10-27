@@ -55,23 +55,13 @@ const sikan=[
     		tebok: '【行踏 旗津】柯耀源', 
     		sootsai: '旗津',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.10 禮拜',
-  	hangbok: [
+    	},
   		{
     		sikan: '14:30-16:30', 
     		tebok: '【台灣傳統美學】DIY罐頭塔', 
     		sootsai: '信東水果食品行',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.10 禮拜',
-  	hangbok: [
+    	},
   		{
     		sikan: '20:00-21:00', 
     		tebok: '【少年吉他配滷味】拍謝少年維尼', 
@@ -88,56 +78,31 @@ const sikan=[
     		tebok: '【講座 咱ê台灣猴】林美吟', 
     		sootsai: '新興圖書館',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.16 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '13:00-18:00', 
     		tebok: '【台語市仔】', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: true
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.16 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '13:30-14:30', 
     		tebok: '【台語市仔DIY】刻你ê台語名', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.16 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '15:00-16:00', 
     		tebok: '【台語市仔DIY】做黏土', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.16 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '16:30-17:30', 
     		tebok: '【台語市仔DIY】家己做飲料kōaⁿ-á', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.16 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '19:30-21:00', 
     		tebok: '【菜市仔DJ擔】魚仔林', 
@@ -165,12 +130,7 @@ const sikan=[
     		tebok: '【展覽解說 走chhōe台灣】趙子賢創作個展', 
     		sootsai: '鹽埕黑白切',
     		sibianhui: true
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.23 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '14:30-16:30', 
     		tebok: '【你今仔日kám有講台語】烏肉老師', 
@@ -187,12 +147,7 @@ const sikan=[
     		tebok: '【行踏 柴山】柯耀源', 
     		sootsai: '柴山',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.24 禮拜',
-  	hangbok: [
+    	},
   		{
     		sikan: '14:30-16:30', 
     		tebok: '【港台垃圾話垃圾講】打狗台語開講社', 
@@ -209,12 +164,7 @@ const sikan=[
     		tebok: '【行踏（親子場） 哈瑪星】烏肉老師', 
     		sootsai: '哈瑪星',
     		sibianhui: false
-    	}
-  	]
-  },
-  {
-  	jit: '2019.11.30 拜六',
-  	hangbok: [
+    	},
   		{
     		sikan: '14:30-16:30', 
     		tebok: '【閉幕講座】台語ê人生戲——吳朋奉', 
