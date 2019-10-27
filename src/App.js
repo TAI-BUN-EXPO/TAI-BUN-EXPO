@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './too/LOGO_NO_BG.png';
-import react_logo from './logo.svg';
 import { tshingtuann } from './tshingtuann'
 import UahTong from './UahTong'
 import SiKanPio from './SiKanPio';

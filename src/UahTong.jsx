@@ -5,7 +5,7 @@ const Too = ({tongmia}) => {
 return(
 	<div>
 	<a href="https://google.com" className="ui medium tsiatbok image">
-		<img src={tongmia}/>
+		<img src={tongmia} alt=''/>
 	</a>
 	</div>
 )}
