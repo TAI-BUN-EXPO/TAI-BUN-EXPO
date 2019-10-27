@@ -10,7 +10,7 @@ branches:
   - master
 script:
 - echo npm run $TSI2_LING7
-- npm run $TSI2_LING7
+- PUBLIC_URL=/TAI-BUN-EXPO/ npm run $TSI2_LING7
 deploy:
   provider: pages
   skip_cleanup: true
