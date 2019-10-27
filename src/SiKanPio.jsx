@@ -84,7 +84,7 @@ const sikan=[
   	hangbok: [
   		{
     		sikan: '10:00-12:00', 
-    		tebok: '【猴山——a講座】咱ê台灣猴', 
+    		tebok: '【講座 咱ê台灣猴】林美吟', 
     		sootsai: '新興圖書館',
     		sibianhui: false
     	}
@@ -97,7 +97,7 @@ const sikan=[
     		sikan: '13:00-18:00', 
     		tebok: '【台語市仔】', 
     		sootsai: '鹽埕第一公有市場',
-    		sibianhui: false
+    		sibianhui: true
     	}
   	]
   },
@@ -150,7 +150,7 @@ const sikan=[
   	hangbok: [
   		{
     		sikan: '14:30-16:30', 
-    		tebok: '【講座】台語有抑無——王昭華', 
+    		tebok: '【講座 台語有抑無】王昭華', 
     		sootsai: '灰咖啡',
     		sibianhui: false
     	}
@@ -205,7 +205,7 @@ const sikan=[
   	hangbok: [
   		{
     		sikan: '09:00-12:00', 
-    		tebok: '【行踏 哈瑪星（親子場）】烏肉老師', 
+    		tebok: '【行踏（親子場） 哈瑪星】烏肉老師', 
     		sootsai: '哈瑪星',
     		sibianhui: false
     	}
