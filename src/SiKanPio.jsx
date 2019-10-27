@@ -231,8 +231,8 @@ const lueiong=sikan.map((kang,i) =>
     <span className='jit'>{kang.jit}</span><br/>
 	{kang.hangbok.map(tiunn =>
       <div key={tiunn.sikan}>
-        <span className='sikan'>{tiunn.sikan}</span>
-        <span className='tebok'>{tiunn.tebok}</span>
+        <span className='sikan'>{tiunn.sikan}</span><br/>
+        <span className='tebok'>{tiunn.tebok}</span><br/>
         <span className='sootsai'>{tiunn.sootsai}</span>
       </div>
 	)}

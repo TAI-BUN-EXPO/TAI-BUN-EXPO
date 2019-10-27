@@ -1,3 +1,15 @@
+.sikanpio {
+	font-weight:bold;
+	font-size: 2em;
+	line-height: 120%;
+	text-align: left;
+}
+.sikanpio > div{
+	margin: 1em;
+}
+.sikanpio > div > div{
+	margin: 1em 0;
+}
 .sikanpio .jit{
   color: white;
   background-color: #ff7bac;
