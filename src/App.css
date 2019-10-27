@@ -20,8 +20,16 @@
 
 .ui.massive.header {
   font-size: 10vmin;
-  text-shadow: 1px 5px 1px #ffffff;
+  color: #ffffff !important;
+  text-shadow: 1px 5px 10px #ff7bac;
 }
+
+
+.ui.massive.header > .sub.header{
+  color: #333 !important;
+  text-shadow: 1px 5px 10px #ff7bac;
+}
+
 
 .App-link {
   color: #09d3ac;
@@ -31,6 +39,14 @@
   padding-top: 10vmin;
   width: 50vw;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .App-tsoo {
+    padding-top: 10vmin;
+    width: 80vw;
+    margin: 0 auto;
+  }
 }
 
 .App-flex-box {

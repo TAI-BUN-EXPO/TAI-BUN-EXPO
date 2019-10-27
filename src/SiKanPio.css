@@ -1,8 +1,8 @@
 .sikanpio {
 	font-weight:bold;
 	font-size: 2em;
-	line-height: 120%;
 	text-align: left;
+	margin-top: 10vh;
 }
 .sikanpio > div{
 	margin: 1em;
@@ -12,14 +12,18 @@
 }
 .sikanpio .jit{
   color: white;
+  font-size: 1.4rem;
   background-color: #ff7bac;
 }
 .sikanpio .sikan{
   color: #ff931e;
+  font-size: 1.2rem;
 }
 .sikanpio .tebok{
   color: white;
+  font-size: 1.2rem;
 }
 .sikanpio .sootsai{
   color: #7ac943;
+  font-size: 1.2rem;
 }

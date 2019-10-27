@@ -14,8 +14,8 @@ function App() {
 
     <h1 className="ui massive ji-kio header">
       2019/11/01 - 11/30
-      <div className="sub ji-phu header">
-        全台語。講座。行踏。表演。市仔
+      <div className="sub header">
+        --------------------------------------------------
       </div>
     </h1>
 
@@ -29,10 +29,10 @@ function App() {
           />
         )
       }
-      <div className="App-tsoo">
-        <SiKanPio/>
-      </div>
-
+      
+      
+      <SiKanPio/>
+      
       <div className="ui text container App-buy">
         <a
           className="ui massive inverted button"
