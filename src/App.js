@@ -5,6 +5,7 @@ import khuiboo from './too/20191101 1930 開幕陳奕齊.png';
 import iamtiannpoo from './too/20191102 1430 來去鹽埕埔大溝頂行踏.png';
 import tianiann from './too/20191102 2000 大俠梅花鹿.png';
 import kooi from './too/20191103 1500 古意唸歌團.png';
+import SiKanPio from './SiKanPio';
 import './App.css';
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
         </div>
       </div>
 
+      <div className="App-tsoo">
+        <SiKanPio/>
+      </div>
     </div>
   );
 }
