@@ -12,7 +12,7 @@ return(
 
 const UahTong = ({sikan, hangbok}) => (
 	<div className="App-tsoo">
-        <h1 className="ui center aligned header">{sikan}</h1>
+        <h1 className="ui inverted center aligned header">{sikan}</h1>
         <div className="App-flex-box">
             {hangbok.map(too => <Too key={too} tongmia={too}/>)}
         </div>

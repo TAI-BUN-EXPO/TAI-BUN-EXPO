@@ -10,11 +10,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="ui big image App-logo" alt="logo" />
-        <h1 className="ui red inverted header">
-          2019/11/01 - 11/30
-          <div className="sub header">全台語。講座。行踏。表演。市仔</div>
-        </h1>
       </header>
+
+    <h1 className="ui massive ji-kio header">
+      2019/11/01 - 11/30
+      <div className="sub ji-phu header">
+        全台語。講座。行踏。表演。市仔
+      </div>
+    </h1>
 
       {/*<!--uah-tong-->*/}
       {
@@ -28,6 +31,16 @@ function App() {
       }
       <div className="App-tsoo">
         <SiKanPio/>
+      </div>
+
+      <div className="ui text container App-buy">
+        <a
+          className="ui massive inverted button"
+          href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
+          target="_blank" 
+          rel="noopener" 
+        >
+          來去買票！</a>
       </div>
     </div>
   );
