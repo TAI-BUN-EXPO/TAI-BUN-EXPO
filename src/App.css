@@ -23,9 +23,33 @@
 
 .App-tsoo {
   padding-top: 10vmin;
+  width: 50vw;
+  margin: 0 auto;
 }
 
 .App-flex-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App-flex-box > div {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.App-flex-box > div img {
+  /*transition: transform .5s ease;*/
+  /*transform-origin: 0 0;*/
+  transition: transform .25s, visibility .25s ease-in, opacity .25s;
+}
+
+.App-flex-box > div:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.tsiatbok-image {
+  background-color: #333;
 }
