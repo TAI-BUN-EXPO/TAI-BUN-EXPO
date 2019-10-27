@@ -1,4 +1,5 @@
 import React from 'react'
+import './SiKanPio.css'
 
 const sikan=[
   {
@@ -225,10 +226,21 @@ const sikan=[
 
 ]
 
-const a=sikan.map((tiunn)=><div>{tiunn.jit},,{tiunn.uahtong}</div>)
+const lueiong=sikan.map((kang,i) =>
+  <div key={i}>
+    <span className='jit'>{kang.jit}</span><br/>
+	{kang.hangbok.map(tiunn =>
+      <div key={tiunn.sikan}>
+        <span className='sikan'>{tiunn.sikan}</span>
+        <span className='tebok'>{tiunn.tebok}</span>
+        <span className='sootsai'>{tiunn.sootsai}</span>
+      </div>
+	)}
+  </div>
+)
 const SiKanPio = () => (
-  <div>
-    {a}
+  <div className='sikanpio'>
+    {lueiong}
   </div>
 )
 
