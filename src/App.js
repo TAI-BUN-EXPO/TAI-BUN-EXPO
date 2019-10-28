@@ -16,9 +16,6 @@ function App() {
           <div className="ui sub header">
             2019.11.01&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;11.30</div>
         </h1>
-        <h2 className="ui massive si-ki header">
-          
-        </h2>
       </header>
 
       <div className="ui container">
