@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './too/LOGO_NO_BG.png';
-import { tshingtuann } from './tshingtuann'
-import UahTong from './UahTong'
-import SiKanPio from './SiKanPio';
+import TshingTuann from './TshingTuann'
+import SiKanPio from './SiKanPio'
+import BePhio from './BePhio'
 import './App.css';
 
 function App() {
@@ -20,31 +20,11 @@ function App() {
         </h2>
       </header>
 
-      {/*<!--uah-tong-->*/}
-      {
-        tshingtuann.map(lepai => 
-          <UahTong 
-            key={lepai.sikan}
-            sikan={lepai.sikan}
-            hangbok={lepai.hangbok}
-          />
-        )
-      }
-      
+      <div className="ui container">
+        <TshingTuann/> 
+        <SiKanPio/>
+        <BePhio/>
 
-      <SiKanPio/>
-      
-      <div className="ui text container App-buy">
-        <a
-          className="ui massive inverted button"
-          href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
-          target="_blank" 
-          rel="noopener" 
-        >
-          來去買票！</a>
-      </div>
-
-      
       <div className="ui text center aligned container App-buy">
         <div className="ui inverted divider"></div>
         <a
@@ -55,6 +35,7 @@ function App() {
         >
           <i className="ui facebook icon"/> 台文博覽會 Facebook
         </a>
+      </div>
       </div>
     </div>
   );
