@@ -67,10 +67,6 @@ export const tshingtuann = [
 	sikan: "11.23 Sat. - 11.24 Sun.",
 	hangbok: [
 	    {
-		    too: require('../too/20191123 1100 趙子賢創作個展.jpg'),
-		    bangtsi: 'https://www.facebook.com/events/483413442212897/',
-		},
-	    {
 		    too: require('../too/20191123 1430 你今仔日kám有講台語.png.jpg'),
 		    bangtsi: 'https://www.facebook.com/events/408043233247829/',
 		},
@@ -98,6 +94,24 @@ export const tshingtuann = [
 	    {
 		    too: require('../too/20191130 1430 閉幕吳朋奉.png.jpg'),
 		    bangtsi: 'https://www.facebook.com/events/433300933829622/',
+		},
+	],
+  },
+  {
+	sikan: "11.01 - 11.23",
+	hangbok: [
+	    {
+		    too: require('../too/20191123 1100 趙子賢創作個展.jpg'),
+		    bangtsi: 'https://www.facebook.com/events/483413442212897/',
+		},
+	],
+  },
+  {
+	sikan: "11.01 - 11.30",
+	hangbok: [
+	    {
+		    too: require('../too/20191130 1400 台文冊展.jpg'),
+		    bangtsi: 'https://www.facebook.com/events/758580147888044/',
 		},
 	],
   },
