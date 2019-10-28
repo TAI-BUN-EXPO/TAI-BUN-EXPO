@@ -12,11 +12,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <h1 className="ui massive header">
-          台文博覽會
-          <div className="ui sub header">Tâi-bûn Expo</div>
+          TÂI-BÛN EXPO
+          <div className="ui sub header">
+            2019.11.01&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;11.30</div>
         </h1>
         <h2 className="ui massive si-ki header">
-          2019/11/01 - 11/30
+          
         </h2>
       </header>
 
