@@ -31,7 +31,7 @@ function App() {
           className="ui icon"
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
           target="_blank" 
-          rel="noopener" 
+          rel="noopener noreferrer" 
         >
           <i className="ui facebook icon"/> 台文博覽會 Facebook
         </a>
