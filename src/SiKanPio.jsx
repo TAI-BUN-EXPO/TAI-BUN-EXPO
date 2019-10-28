@@ -86,20 +86,20 @@ const sikan=[
     		sibianhui: true
     	},
   		{
-    		sikan: '13:30-14:30', 
-    		tebok: '【台語市仔DIY】刻你ê台語名', 
+    		sikan: '13:00-14:00', 
+    		tebok: '【台語市仔DIY】刻台語名印仔', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
     	},
   		{
-    		sikan: '15:00-16:00', 
-    		tebok: '【台語市仔DIY】做黏土', 
+    		sikan: '14:30-15:30', 
+    		tebok: '【台語市仔DIY】黏土糖罐仔-月熊', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
     	},
   		{
-    		sikan: '16:30-17:30', 
-    		tebok: '【台語市仔DIY】家己做飲料kōaⁿ-á', 
+    		sikan: '16:00-16:30', 
+    		tebok: '【台語市仔DIY】用台語來Chò Bāng', 
     		sootsai: '鹽埕第一公有市場',
     		sibianhui: false
     	},
