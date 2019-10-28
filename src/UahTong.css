@@ -1,0 +1,45 @@
+.App-tsiatbok {
+    display: inline-block;    
+}
+
+@media screen and (min-width: 1281px) {
+  .App-tsiatbok {
+    width: 500px;
+    height: 500px;
+  }  
+}
+
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .App-tsiatbok {
+    width: 400px;
+    height: 400px;
+  }  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .App-tsiatbok {
+    width: 300px;
+    height: 300px;
+  }  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .App-tsiatbok {
+    width: 300px;
+    height: 300px;
+  }  
+}
+
+.App-tsiatbok img {
+  /*transition: transform .5s ease;*/
+  /*transform-origin: 0 0;*/
+  transition: transform .25s, visibility .25s ease-in, opacity .25s;
+}
+
+.App-tsiatbok:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
