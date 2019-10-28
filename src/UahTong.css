@@ -1,5 +1,10 @@
+.App-tsoo {
+  margin-top: 5rem;
+}
+
 .App-tsiatbok {
-    display: inline-block;    
+  display: inline-block;    
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1281px) {
@@ -7,6 +12,9 @@
     width: 500px;
     height: 500px;
   }  
+  .App-tsoo {
+    margin-top: 10rem;
+  }
 }
 
 
@@ -26,10 +34,10 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
   .App-tsiatbok {
-    width: 300px;
-    height: 300px;
+    width: 40vw;
+    height: 40vw;
   }  
 }
 

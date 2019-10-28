@@ -4,7 +4,7 @@ import './UahTong.css'
 const Too = ({tiunn}) => {
 return(
 	<div className="App-tsiatbok">
-	    <a href={tiunn.bangtsi} className="ui medium tsiatbok image">
+	    <a href={tiunn.bangtsi} className="ui tsiatbok image">
 		    <img src={tiunn.too} alt=''/>
 	    </a>
 	</div>

@@ -6,6 +6,26 @@
 
 .App-logo {
   height: 65vmin;
+  animation: bumping linear 0.7s infinite;
+}
+
+@keyframes bumping{
+    0%{
+        transform: scale(1);
+        
+    }
+    45%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    55%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .App-header {
@@ -45,7 +65,7 @@
   padding-top: 10vh;
 }
 .ui.massive.inverted.button {
-  color: #7ac943 !important;
+  color: #eaeaea !important;
   box-shadow: 0 0 2px 3px #52bce4,
               0 0 2px .2px #52bce4 inset !important;
 }
