@@ -1,7 +1,7 @@
 
 export const tshingtuann = [
   {
-	sikan: "11.2 Fri. - 11.4 Sun.",
+	sikan: "11.1 Fri. - 11.3 Sun.",
 	hangbok: [
 		require('./too/20191101 1930 開幕陳奕齊.png'),
 		require('./too/20191102 1430 來去鹽埕埔大溝頂行踏.png'),
