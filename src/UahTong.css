@@ -1,5 +1,10 @@
+.App-tsoo {
+  margin-top: 3rem;
+}
+
 .App-tsiatbok {
-    display: inline-block;    
+  display: inline-block;    
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1281px) {
