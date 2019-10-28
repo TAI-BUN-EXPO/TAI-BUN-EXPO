@@ -13,7 +13,7 @@ script:
 - npm run $TSI2_LING7
 deploy:
   provider: pages
-  fqdn: expo.taigi.info
+  fqdn: taibunexpo.taigi.info
   skip_cleanup: true
   local_dir: build/
   github_token:
