@@ -137,10 +137,6 @@ export const tshingtuann = [
 		    bangtsi: 'https://www.facebook.com/events/901612790220586/',
 		},
 	    {
-		    too: require('../too/20191130 1400 台文冊展.jpg'),
-		    bangtsi: 'https://www.facebook.com/events/758580147888044/',
-		},
-	    {
 		    too: require('../too/20191130 1430 閉幕吳朋奉.png.jpg'),
 		    bangtsi: 'https://www.facebook.com/events/433300933829622/',
 		},
