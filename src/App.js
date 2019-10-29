@@ -4,6 +4,7 @@ import TshingTuann from './TshingTuann'
 import SiKanPio from './SiKanPio'
 import BePhio from './BePhio'
 import './App.css';
+import fbicon from './too/facebook-icon.png'
 
 function App() {
   return (
@@ -24,14 +25,12 @@ function App() {
         <BePhio/>
 
       <div className="ui text center aligned container App-buy">
-        <div className="ui inverted divider"></div>
         <a
-          className="ui icon"
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
           target="_blank" 
           rel="noopener noreferrer" 
         >
-          <i className="ui facebook icon"/> 台文博覽會 Facebook
+          <img src={fbicon} className="fb-icon" alt='FB' /> 台文博覽會 Facebook
         </a>
       </div>
       </div>

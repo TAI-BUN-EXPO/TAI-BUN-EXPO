@@ -76,3 +76,9 @@
               0 0 2px .2px #52bce4 inset !important;
   background-color: #282c34 !important;
 }
+
+.fb-icon {
+  width: 15px;
+  height: 17px;
+  vertical-align: text-top;
+}
