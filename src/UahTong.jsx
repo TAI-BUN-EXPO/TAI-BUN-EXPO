@@ -1,11 +1,18 @@
 import React from 'react'
 import './UahTong.css'
+import ProgressiveImage from 'react-progressive-image'
+import fbicon from './too/facebook-icon.png'
 
 const Too = ({tiunn}) => {
 return(
 	<div className="App-tsiatbok">
 	    <a href={tiunn.bangtsi} className="ui tsiatbok image">
-		    <img src={tiunn.too} alt=''/>
+		    {/*<img src={tiunn.too} alt=''/>*/}
+		    <ProgressiveImage
+		    	src={tiunn.too} 
+		    	placeholder={fbicon}>
+			  {src => <img src={src} alt="an quick preview" />}
+			</ProgressiveImage>
 	    </a>
 	</div>
 )}

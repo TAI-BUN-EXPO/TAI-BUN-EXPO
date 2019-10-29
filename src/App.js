@@ -30,7 +30,8 @@ function App() {
           target="_blank" 
           rel="noopener noreferrer" 
         >
-          <img src={fbicon} className="fb-icon"/> 台文博覽會 Facebook
+          <img src={fbicon} className="fb-icon" alt="an quick preview" 
+          /> 台文博覽會 Facebook
         </a>
       </div>
       </div>
