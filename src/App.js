@@ -24,7 +24,6 @@ function App() {
         <BePhio/>
 
       <div className="ui text center aligned container App-buy">
-        <div className="ui inverted divider"></div>
         <a
           className="ui icon"
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"

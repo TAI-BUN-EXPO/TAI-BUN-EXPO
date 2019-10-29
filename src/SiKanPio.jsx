@@ -190,9 +190,7 @@ const lueiong=sikan.map((kang,i) =>
 )
 const SiKanPio = () => (
   <div className='sikanpio ui text container'>
-    <div className="ui padded basic segment">
-    <div className="ui horizontal inverted divider">時間表</div>
-    </div>
+    <h1 className="ui inverted center aligned header">時間表</h1>
     {lueiong}
   </div>
 )
