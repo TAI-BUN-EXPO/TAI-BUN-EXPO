@@ -1,7 +1,7 @@
 import React from 'react'
-import './UahTong.css'
 import ProgressiveImage from 'react-progressive-image'
 import fbicon from './too/facebook-icon.png'
+import './UahTong.css'
 
 const Too = ({tiunn}) => {
 return(
