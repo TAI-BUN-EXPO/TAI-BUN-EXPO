@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './too/LOGO_NO_BG.png';
+import logo from './too/LOGO_NO_BG.579x584.png';
 import TshingTuann from './TshingTuann'
 import SiKanPio from './SiKanPio'
 import BePhio from './BePhio'

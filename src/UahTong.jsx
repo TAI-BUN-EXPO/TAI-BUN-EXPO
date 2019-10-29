@@ -9,8 +9,9 @@ return(
 	    <a href={tiunn.bangtsi} className="ui tsiatbok image">
 		    {/*<img src={tiunn.too} alt=''/>*/}
 		    <ProgressiveImage
+		    	delay={1500}
 		    	src={tiunn.too} 
-		    	placeholder={fbicon}>
+		    	placeholder={tiunn.hasOwnProperty('bi')? tiunn.bi: fbicon}>
 			  {src => <img src={src} alt="an quick preview" />}
 			</ProgressiveImage>
 	    </a>
