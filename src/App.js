@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './too/LOGO_NO_BG.png';
+import logo from './too/LOGO_NO_BG.579x584.png';
 import TshingTuann from './TshingTuann'
 import SiKanPio from './SiKanPio'
 import BePhio from './BePhio'
@@ -30,7 +30,8 @@ function App() {
           target="_blank" 
           rel="noopener noreferrer" 
         >
-          <img src={fbicon} className="fb-icon" alt='FB' /> 台文博覽會 Facebook
+          <img src={fbicon} className="fb-icon" alt='FB' />
+          台文博覽會 Facebook
         </a>
       </div>
       </div>

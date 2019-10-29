@@ -1,11 +1,19 @@
 import React from 'react'
+import ProgressiveImage from 'react-progressive-image'
+import fbicon from './too/facebook-icon.png'
 import './UahTong.css'
 
 const Too = ({tiunn}) => {
 return(
 	<div className="App-tsiatbok">
 	    <a href={tiunn.bangtsi} className="ui tsiatbok image">
-		    <img src={tiunn.too} alt=''/>
+		    {/*<img src={tiunn.too} alt=''/>*/}
+		    <ProgressiveImage
+		    	delay={1500}
+		    	src={tiunn.too} 
+		    	placeholder={tiunn.hasOwnProperty('bi')? tiunn.bi: fbicon}>
+			  {src => <img src={src} alt="an quick preview" />}
+			</ProgressiveImage>
 	    </a>
 	</div>
 )}
