@@ -14,9 +14,10 @@ function App() {
 
         <h1 className="ui massive header">
           TÂI-BÛN EXPO
-          <div className="ui sub header">
-            2019.11 @打狗</div>
         </h1>
+        <h2 className="ui medium inverted header">
+          2019.11 tī 打狗
+        </h2>
       </header>
 
       <main className="ui container">
