@@ -1,6 +1,7 @@
 import React from 'react'
-import './SiKanPio.css'
 import SiKanHangBok from './SiKanHangBok'
+import TsongThai from './TsongThai'
+import './SiKanPio.css'
 
 const lueiong = SiKanHangBok.map((kang,i) =>
   <div key={i}>
@@ -10,14 +11,12 @@ const lueiong = SiKanHangBok.map((kang,i) =>
         <span className='sikan'>{tiunn.sikan}</span><br/>
         <span className='tebok'>{tiunn.tebok}</span><br/>
         <span className='sootsai'>{tiunn.sootsai}</span>
-        <ul>{
-          <li></li>
-        }
-        </ul>
+        <TsongThai tsongthai={tiunn.suehbing}/>
       </div>
 	)}
   </div>
 )
+
 const SiKanPio = () => (
   <div className='sikanpio ui text container'>
     <h1 className="ui inverted center aligned header">時間表</h1>
