@@ -111,7 +111,8 @@ export const tshingtuann = [
 	],
   },
   {
-	sikan: "11.01 - 11.23",
+	sikan: "11.01 - 11.23 展覽",
+	si_tngki: true,
 	hangbok: [
 	    {
 		    too: require('../too/20191123 1100 趙子賢創作個展.jpg'),
@@ -121,7 +122,8 @@ export const tshingtuann = [
 	],
   },
   {
-	sikan: "11.01 - 11.30",
+	sikan: "11.01 - 11.30 展覽",
+	si_tngki: true,
 	hangbok: [
 	    {
 		    too: require('../too/20191130 1400 台文冊展.jpg'),

@@ -18,9 +18,13 @@ return(
 	</div>
 )}
 
-const UahTong = ({sikan, hangbok}) => (
+const UahTong = ({sikan, hangbok, si_tngki}) => (
 	<div className="App-tsoo">
-        <h1 className="ui inverted center aligned header">{sikan}</h1>
+        <h1 className={
+        	'ui inverted center aligned header ' +
+        	(si_tngki ? 'ji-ng' : null)
+    	}
+    	>{sikan}</h1>
         <div>
             {hangbok.map(tiunn => <Too key={tiunn.too} tiunn={tiunn}/>)}
         </div>
