@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  padding-bottom: 100px;
 }
 
 .App-logo {
@@ -87,4 +86,16 @@
   width: 15px;
   height: 17px;
   vertical-align: text-top;
+}
+
+footer {
+  border-top: 1px #686b70 solid;
+  margin-top: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > a > img {
+  vertical-align: center;
+  margin-right: 10px;
 }

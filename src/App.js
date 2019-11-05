@@ -25,14 +25,14 @@ function App() {
         <BePhio/>
       </main>
 
-      <footer className="ui text center aligned container App-buy">
+      <footer className="ui text center aligned container">
         <a
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
           target="_blank" 
           rel="noopener noreferrer" 
         >
           <img src={fbicon} className="fb-icon" alt='FB' />
-          台文博覽會 Facebook
+          <span>台文博覽會 Facebook</span>
         </a>
       </footer>
     </article>
