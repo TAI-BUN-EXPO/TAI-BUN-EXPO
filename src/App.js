@@ -8,34 +8,35 @@ import fbicon from './too/facebook-icon.png'
 
 function App() {
   return (
-    <div className="App">
+    <article className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
         <h1 className="ui massive header">
           TÂI-BÛN EXPO
-          <div className="ui sub header">
-            2019.11.01&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;11.30</div>
         </h1>
+        <h2 className="ui medium inverted header">
+          2019.11 tī 打狗
+        </h2>
       </header>
 
-      <div className="ui container">
+      <main className="ui container">
         <TshingTuann/> 
         <SiKanPio/>
         <BePhio/>
+      </main>
 
-      <div className="ui text center aligned container App-buy">
+      <footer className="ui text center aligned container">
         <a
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
           target="_blank" 
           rel="noopener noreferrer" 
         >
           <img src={fbicon} className="fb-icon" alt='FB' />
-          台文博覽會 Facebook
+          <span>台文博覽會 Facebook</span>
         </a>
-      </div>
-      </div>
-    </div>
+      </footer>
+    </article>
   );
 }
 

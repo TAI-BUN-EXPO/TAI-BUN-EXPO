@@ -1,0 +1,99 @@
+.sikanpio {
+	font-weight:bold;
+	font-size: 2em;
+	text-align: left;
+	margin-top: 20vh;
+}
+.sikanpio > div{
+	margin: 1em;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.sikanpio > div > div{
+	margin: 2em 0;
+}
+.sikanpio .jit {
+  color: white;
+  font-size: 1.4rem;
+  background-color: #ff7bac;
+}
+
+.sikanpio .sikan{
+  color: #ff931e;
+  font-size: 1.4rem;
+}
+.sikanpio .tebok{
+  color: white;
+  font-size: 1.7rem;
+}
+.sikanpio .sootsai{
+  color: #7ac943;
+  font-size: 1.1rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: .3em;
+}
+/*
+.dashedline {
+  vertical-align: center;
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  border-bottom: 2px dotted #ffff;
+  margin-right: 10px;
+}*/
+ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+ul.tsongthai li {
+  list-style: none;
+  display: inline-block;
+}
+.sikanpio .circular {
+  width: 4ch;
+  height: 4ch;
+  padding: 6px;
+  border-width: 2px;
+  border-style: dotted;
+  border-radius: 50%;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1.2em;
+}
+
+.circular.yellow {
+  border-color: #fefe9a;
+  color: #fefe9a;
+}
+
+.circular.purple {
+  border-color: #e176ff;
+  color: #e176ff;
+}
+
+.circular.waterblue {
+  border-color: #01fde8;
+  color: #01fde8;
+}
+
+.circular.pink {
+  border-color: #f681c7;
+  color: #f681c7;
+}
+
+.circular.lightblue {
+  border-color: #9efdff;
+  color: #9efdff;
+}
+
+
+.circular + .circular {
+  margin-left: .5rem;
+}

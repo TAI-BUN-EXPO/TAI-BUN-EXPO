@@ -10,6 +10,7 @@ const TshingTuann = () => (
 	      key={lepai.sikan}
 	      sikan={lepai.sikan}
 	      hangbok={lepai.hangbok}
+	      si_tngki={lepai.hasOwnProperty('si_tngki')}
 	    />
 	  )
 	}

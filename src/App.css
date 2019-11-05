@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  padding-bottom: 100px;
 }
 
 .App-logo {
@@ -38,22 +37,20 @@
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .App-header {
+    min-height: 80vh;
+  }
+}
+
 .ui.massive.header {
   font-size: 7vmin;
   color: #ffffff !important;
   text-shadow: 1px 1px 10px #777;
 }
 
-
-.ui.massive.header > .sub.header{
-  font-size: 3vmin;
-  color: #ffffff !important;
-  text-shadow: 1px 1px 10px #777;
-}
-
-.ui.massive.si-ki.header {
-  color: #52bce4 !important;
-  text-shadow: 0px 0px 0px #ffffff;
+.ui.medium.header {
+  margin-top: -5px;
 }
 
 .App-link {
@@ -81,4 +78,16 @@
   width: 15px;
   height: 17px;
   vertical-align: text-top;
+}
+
+footer {
+  border-top: 1px #686b70 solid;
+  margin-top: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer > a > img {
+  vertical-align: center;
+  margin-right: 10px;
 }
