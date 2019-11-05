@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96b06e0e.chunk.css",
+    "main.js": "/static/js/main.66ab5200.chunk.js",
+    "main.js.map": "/static/js/main.66ab5200.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e26e8d4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e26e8d4.js.map",
+    "static/js/2.776b93c0.chunk.js": "/static/js/2.776b93c0.chunk.js",
+    "static/js/2.776b93c0.chunk.js.map": "/static/js/2.776b93c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b5cc6c65fa7c4332cff1347c8fbf13fe.js": "/precache-manifest.b5cc6c65fa7c4332cff1347c8fbf13fe.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.96b06e0e.chunk.css.map": "/static/css/main.96b06e0e.chunk.css.map",
+    "static/media/20191101 1930 開幕陳奕齊.png.jpg": "/static/media/20191101 1930 開幕陳奕齊.png.5e65a3fc.jpg",
+    "static/media/20191102 1430 來去鹽埕埔大溝頂行踏.png.jpg": "/static/media/20191102 1430 來去鹽埕埔大溝頂行踏.png.46137b80.jpg",
+    "static/media/20191102 2000 大俠梅花鹿.png.jpg": "/static/media/20191102 2000 大俠梅花鹿.png.200394be.jpg",
+    "static/media/20191103 1500 古意唸歌團.png.jpg": "/static/media/20191103 1500 古意唸歌團.png.d526f86e.jpg",
+    "static/media/20191109 1430 台南妹仔周定邦.png.jpg": "/static/media/20191109 1430 台南妹仔周定邦.png.4c60bdd1.jpg",
+    "static/media/20191110 0900 來去旗津行踏.png.jpg": "/static/media/20191110 0900 來去旗津行踏.png.c3b1870a.jpg",
+    "static/media/20191110 1430 罐頭塔DIY.png.jpg": "/static/media/20191110 1430 罐頭塔DIY.png.5de068b2.jpg",
+    "static/media/20191110 2000 拍謝少年維尼.png.jpg": "/static/media/20191110 2000 拍謝少年維尼.png.ceb144ea.jpg",
+    "static/media/20191116 1000 林美美.png.jpg": "/static/media/20191116 1000 林美美.png.5e226e5f.jpg",
+    "static/media/20191116 1300 台語市仔.png.jpg": "/static/media/20191116 1300 台語市仔.png.4c9f8b29.jpg",
+    "static/media/20191116 1930 魚仔林.png.jpg": "/static/media/20191116 1930 魚仔林.png.3827e801.jpg",
+    "static/media/20191117 1430 王昭華.png.jpg": "/static/media/20191117 1430 王昭華.png.770ab37f.jpg",
+    "static/media/20191123 1100 趙子賢創作個展.jpg": "/static/media/20191123 1100 趙子賢創作個展.3ab89f99.jpg",
+    "static/media/20191123 1430 你今仔日kám有講台語.png.jpg": "/static/media/20191123 1430 你今仔日kám有講台語.png.9d68d0e1.jpg",
+    "static/media/20191124 0900 來去柴山.png.jpg": "/static/media/20191124 0900 來去柴山.png.b5304b5e.jpg",
+    "static/media/20191124 1430 港台垃圾話垃圾講.png.jpg": "/static/media/20191124 1430 港台垃圾話垃圾講.png.0cedf872.jpg",
+    "static/media/20191130 0900 來去哈馬星行踏.png.jpg": "/static/media/20191130 0900 來去哈馬星行踏.png.720f0c00.jpg",
+    "static/media/20191130 1400 台文冊展.jpg": "/static/media/20191130 1400 台文冊展.2b30d365.jpg",
+    "static/media/20191130 1430 閉幕吳朋奉.png.jpg": "/static/media/20191130 1430 閉幕吳朋奉.png.69c32524.jpg",
+    "static/media/LOGO_NO_BG.579x584.png": "/static/media/LOGO_NO_BG.579x584.eeca912a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e26e8d4.js",
+    "static/js/2.776b93c0.chunk.js",
+    "static/css/main.96b06e0e.chunk.css",
+    "static/js/main.66ab5200.chunk.js"
+  ]
+}
