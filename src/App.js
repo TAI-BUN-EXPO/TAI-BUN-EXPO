@@ -15,13 +15,13 @@ function App() {
         <h1 className="ui massive header">
           TÂI-BÛN EXPO
           <div className="ui sub header">
-            2019.11.01&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;11.30</div>
+            2019.11 @打狗</div>
         </h1>
       </header>
 
       <div className="ui container">
-        <SiKanPio/>
         <TshingTuann/> 
+        <SiKanPio/>
         <BePhio/>
 
       <div className="ui text center aligned container App-buy">
