@@ -8,7 +8,7 @@ import fbicon from './too/facebook-icon.png'
 
 function App() {
   return (
-    <div className="App">
+    <article className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
@@ -19,12 +19,13 @@ function App() {
         </h1>
       </header>
 
-      <div className="ui container">
+      <main className="ui container">
         <TshingTuann/> 
         <SiKanPio/>
         <BePhio/>
+      </main>
 
-      <div className="ui text center aligned container App-buy">
+      <footer className="ui text center aligned container App-buy">
         <a
           href="https://www.facebook.com/pg/taibunexpo/events/?ref=page_internal"
           target="_blank" 
@@ -33,9 +34,8 @@ function App() {
           <img src={fbicon} className="fb-icon" alt='FB' />
           台文博覽會 Facebook
         </a>
-      </div>
-      </div>
-    </div>
+      </footer>
+    </article>
   );
 }
 
