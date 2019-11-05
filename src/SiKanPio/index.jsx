@@ -10,8 +10,10 @@ const lueiong = SiKanHangBok.map((kang,i) =>
       <div key={tiunn.sikan}>
         <span className='sikan'>{tiunn.sikan}</span><br/>
         <span className='tebok'>{tiunn.tebok}</span><br/>
-        <span className='sootsai'>{tiunn.sootsai}</span>
-        <TsongThai tsongthai={tiunn.suehbing}/>
+        <div className="flex-row">
+          <span className='sootsai'>{tiunn.sootsai}</span>
+          <TsongThai tsongthai={tiunn.suehbing}/>
+        </div>
       </div>
 	)}
   </div>
