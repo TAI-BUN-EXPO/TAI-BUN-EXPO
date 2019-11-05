@@ -116,7 +116,7 @@ export const tshingtuann = [
 	    {
 		    too: require('../too/20191123 1100 趙子賢創作個展.jpg'),
 		    bi: require('../too/bi_20191123 1100 趙子賢創作個展.jpg'),
-		    bangtsi: 'https://www.facebook.com/events/483413442212897/',
+		    bangtsi: 'https://www.facebook.com/events/699699683874163/',
 		},
 	],
   },
