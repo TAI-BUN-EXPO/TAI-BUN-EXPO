@@ -38,6 +38,12 @@
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .App-header {
+    min-height: 80vh;
+  }
+}
+
 .ui.massive.header {
   font-size: 7vmin;
   color: #ffffff !important;
