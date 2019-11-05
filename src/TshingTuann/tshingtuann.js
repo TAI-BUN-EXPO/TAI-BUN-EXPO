@@ -1,66 +1,6 @@
 
 export const tshingtuann = [
   {
-	sikan: "全部時間表",
-	hangbok: [
-	    {
-		    too: require('../SikanPioToo/se_20191101.jpg'),
-		    bi: require('../SikanPioToo/bi_20191101.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191102.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-            {
-		    too: require('../SikanPioToo/se_20191103.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191109.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191110.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191116_Chhī-á.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-        {
-		    too: require('../SikanPioToo/se_20191116_DIY.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191117.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191123.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191124.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	    {
-		    too: require('../SikanPioToo/se_20191130.jpg'),
-		    bi: require('../SikanPioToo/bi_20191110.jpg'),
-		    bangtsi: 'https://www.facebook.com/taibunexpo/',
-		},
-	],
-  },
-  {
 	sikan: "11.1 Fri. - 11.3 Sun.",
 	hangbok: [
 	    {

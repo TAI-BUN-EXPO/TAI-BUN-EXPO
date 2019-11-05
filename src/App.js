@@ -20,8 +20,8 @@ function App() {
       </header>
 
       <div className="ui container">
-        <TshingTuann/> 
         <SiKanPio/>
+        <TshingTuann/> 
         <BePhio/>
 
       <div className="ui text center aligned container App-buy">
