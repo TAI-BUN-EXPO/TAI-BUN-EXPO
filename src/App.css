@@ -37,6 +37,11 @@
   color: white;
 }
 
+aside {
+  color: #fff;
+  margin-top: 5rem;
+}
+
 @media screen and (max-width: 768px) {
   .App-header {
     min-height: 80vh;
@@ -56,6 +61,7 @@
 .App-link {
   color: #09d3ac;
 }
+
 
 /*Bé-phiò liú-á*/
 .App-buy {

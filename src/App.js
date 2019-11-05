@@ -20,6 +20,14 @@ function App() {
         </h2>
       </header>
 
+      <aside className="ui text container">
+        <h1 className="ui yellow inverted header">台文Expo&nbsp;台語變有步</h1>
+        <p>全宇宙頭1-pái大型台語、台文祭，
+        來聽台語樂團、DJ、唸歌表演，看古早電影khiang片，se̍h台語市仔、
+        藝術展覽，台語DIY體驗，行踏打狗在地，koh有各種精彩ê台語講座！
+        趕緊來看詳細～</p>
+      </aside>
+
       <main className="ui container">
         <TshingTuann/> 
         <SiKanPio/>
